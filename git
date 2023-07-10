@@ -1,0 +1,5 @@
+#!/bin/bash
+git add *
+c=read
+git commit -m "$c"
+git push origin master
